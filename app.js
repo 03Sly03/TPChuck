@@ -1,6 +1,6 @@
 function ChangeChuckText() {
     let chuckQuote = document.querySelector(".chuckText");
-    chuckQuote.innerHTML = chuckTextArr[getRandomInt(10)];
+    chuckQuote.innerHTML = chuckTextArr[getRandomInt(chuckTextArr.length)];
     document.body.style.backgroundColor = `rgb(${getRandomInt(256)},${getRandomInt(256)},${getRandomInt(256)})`;
     chuckStyle.style.color = `rgb(${getRandomInt(256)},${getRandomInt(256)},${getRandomInt(256)})`;
     chuckStyle2.style.color = `rgb(${getRandomInt(256)},${getRandomInt(256)},${getRandomInt(256)})`;
